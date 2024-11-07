@@ -1,0 +1,78 @@
+/* Center the form on the page */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Form container */
+.login-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input fields */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.login-form input:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+/* Buttons */
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.login-form button:first-of-type {
+    background-color: #6c63ff;
+}
+
+.login-form button:first-of-type:hover {
+    background-color: #5549cc;
+}
+
+.login-form button:last-of-type {
+    background-color: #ccc;
+    color: #333;
+}
+
+.login-form button:last-of-type:hover {
+    background-color: #bbb;
+}
+
+/* Add a bit of space around the form */
+.login-form button:last-of-type {
+    margin-top: 15px;
+}
